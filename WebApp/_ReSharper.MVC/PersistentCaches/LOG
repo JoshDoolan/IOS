@@ -1,1 +1,5 @@
-2012/09/19-17:51:02.419 30b0 Delete type=3 #1
+2012/09/19-18:27:14.332 6a2c Recovering log #3
+2012/09/19-18:27:14.333 6a2c Level-0 table #5: started
+2012/09/19-18:27:14.339 6a2c Level-0 table #5: 112493 bytes OK
+2012/09/19-18:27:14.344 6a2c Delete type=0 #3
+2012/09/19-18:27:14.344 6a2c Delete type=3 #2
