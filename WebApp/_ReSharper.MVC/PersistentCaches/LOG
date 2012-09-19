@@ -1,5 +1,5 @@
-2012/09/19-18:27:14.332 6a2c Recovering log #3
-2012/09/19-18:27:14.333 6a2c Level-0 table #5: started
-2012/09/19-18:27:14.339 6a2c Level-0 table #5: 112493 bytes OK
-2012/09/19-18:27:14.344 6a2c Delete type=0 #3
-2012/09/19-18:27:14.344 6a2c Delete type=3 #2
+2012/09/19-18:55:54.820 3c0c Recovering log #6
+2012/09/19-18:55:54.821 3c0c Level-0 table #8: started
+2012/09/19-18:55:54.827 3c0c Level-0 table #8: 29306 bytes OK
+2012/09/19-18:55:54.832 3c0c Delete type=0 #6
+2012/09/19-18:55:54.833 3c0c Delete type=3 #4

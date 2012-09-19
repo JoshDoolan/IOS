@@ -9,6 +9,8 @@ var app = {
         // note that this is an event handler so the scope is that of the event
         // so we need to call app.report(), and not this.report()
         app.report('deviceready');
+       
+        
     },
     report: function(id) { 
         console.log("report:" + id);
@@ -18,3 +20,13 @@ var app = {
         completeElem.className = completeElem.className.split('hide').join('');
     }
 };
+
+
+$(document).ready(function() {
+    $("a").click(function() {
+        $.getJSON('http://localhost:24175/Service/testendpoint', function (data) {
+           
+            $("a.response").html(data);
+        });
+    });
+});
