@@ -34,15 +34,26 @@
         <div id="deviceready">
             <p class="status pending blink">Connecting to Device</p>
             <p class="status complete blink hide">Device is Ready</p>
-            <a href="#">Will this link work?</a>
-            <a class="response"></a>
+    
+            
+            <script type="text/x-handlebars">
+                      <h1>{{App.PhotoView.PhotoData.id}}</h1>
+                
+                  {{#each App.PhotoView.PhotoData.images}}
+                          <img {{bindAttr src="this.source"}} style="max-width:80px;" />
+  
+                
+                 {{/each}}
+            </script>
+
         </div>
     </div>
     <script type="text/javascript" src="cordova-2.0.0.js"></script>
     <script type="text/javascript" src="Scripts/jquery-1.7.1.min.js"></script>
+    <script src="js/libs/handlebars-1.0.0.beta.6.js"></script>
+    <script src="js/libs/ember-1.0.pre.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-
-
+    
     <script type="text/javascript">
         app.initialize();
 
